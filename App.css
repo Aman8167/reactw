@@ -1,0 +1,204 @@
+.App{
+  display:flex;
+  font-family:'IBM Plex Sana Thai Looped',sans-serif ;
+  
+}
+.body_container{
+  flex:1;
+  background-color: rgb(144, 248, 248);
+}
+.sidebar_container{
+  height:100vh;
+  background-color:rgb(144, 248, 248);
+  position:sticky;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.sidebar_ab{
+  width: 14rem;
+  height:90%;
+   justify-content: start;
+  align-items: start;
+  flex-direction: column; 
+  border: 0px solid white;
+  padding: 15px;
+  margin: 10px;
+}
+.profile{
+  text-align: center;
+ 
+  
+}
+.as{
+  text-align: center;
+  color:black;
+  padding: 12px;
+  font-size: 23px;
+}
+.profile button:hover{
+  cursor: pointer;
+  border: 5px solid white;
+}
+.profile button{
+  text-decoration: none;
+  color:white;
+  font-size: 15px;
+  background-color: rgb(10, 190, 160);
+  padding:12px;
+ width:7rem;
+ font-weight: bold;
+ border:5px solid rgb(144, 248, 248);
+ border-radius: 6px;
+}
+.service_group{
+
+  flex-direction: column;
+  width:100%;
+}
+#service:hover{
+  cursor: pointer;
+  border: 5px solid white;
+}
+  #service{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding:4px;
+    border-radius: 6px;
+    font-weight: bold;
+
+    
+  }
+
+  .Client_group{
+
+    flex-direction: column;
+    width:100%;
+  }
+  
+#Client:hover{
+  cursor: pointer;
+  border: 5px solid white;
+}
+  #Client{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding:4px;
+    border-radius: 6px;
+    font-weight: bold;
+    
+  }
+  .btn_1 button{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding-top:7px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-left:30%;
+    
+  }
+  .btn_1 button:hover{
+    cursor:pointer;
+    border:5px solid white;
+  }
+  .btn_2 button{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding-top:7px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-left:23px;
+    
+  }
+  .btn_2 button:hover{
+    cursor:pointer;
+    border:5px solid white;
+  }
+  .btn_3 button{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding-top:7px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-left:23px;
+    
+  }
+  .btn_3 button:hover{
+    cursor:pointer;
+    border:5px solid white;
+  }
+  .Promotion_group{
+
+    flex-direction: column;
+    width:100%;
+  }
+  #Promotion{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding:4px;
+    border-radius: 6px;
+    font-weight: bold;
+    
+  }
+  #Promotion:hover{
+    cursor: pointer;
+    border: 5px solid white;
+  }
+  .Topservice_group{
+
+    flex-direction: column;
+    width:100%;
+  }
+  #Topservice{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding:4px;
+    border-radius: 6px;
+    font-weight: bold;
+    
+  }
+
+  #Topservice:hover{
+    cursor: pointer;
+    border: 5px solid white;
+  }
+  .btn_4 button{
+    flex-direction: column;
+    width:100%;
+    color:black;
+    height:2rem;
+    background-color: white;
+    padding-top:7px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-left:30%;
+    
+  }
+  .btn_4 button:hover{
+    cursor:pointer;
+    border:5px solid white;
+  }
